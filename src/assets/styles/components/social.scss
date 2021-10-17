@@ -1,0 +1,19 @@
+.social_list {
+  align-items: center;
+  color: rgba(0, 0, 0, 0.4);
+  display: grid;
+  font-size: 14px;
+  font-weight: 600;
+  grid-gap: 16px;
+  grid-template-columns: repeat(7, 1fr);
+  margin: 0;
+}
+
+.social_link {
+  display: block;
+  height: 24px;
+  width: 24px;
+  &:active {
+    opacity: 0.6;
+  }
+}

@@ -1,0 +1,29 @@
+.hidden-xs {
+  @media screen and (max-width: $xs - 0.02) {
+    display: none;
+  }
+}
+
+.hidden-sm {
+  @media screen and (min-width: $xs) and (max-width: $sm - 0.02) {
+    display: none;
+  }
+}
+
+.hidden-md {
+  @media screen and (min-width: $sm) and (max-width: $md - 0.02) {
+    display: none;
+  }
+}
+
+.hidden-xl {
+  @media screen and (min-width: $md) and (max-width: $xl - 0.02) {
+    display: none;
+  }
+}
+
+.hidden-xxl {
+  @media screen and (min-width: $xl) {
+    display: none;
+  }
+}

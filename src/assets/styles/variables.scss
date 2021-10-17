@@ -1,0 +1,27 @@
+// BREAKPOINTS
+$xs: 320px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+// COLORS
+$primary-color: var(--primary-color);
+$primary-color-active: var(--primary-color-active);
+$primary-color-hover: var(--primary-color-hover);
+
+// FONT-FAMILY
+$font-family-body: var(--font-family-body);
+$font-family-heading: var(--font-family-heading);
+
+:root {
+  // COLORS
+  --primary-color: #3498db;
+  --primary-color-active: #{darken(#3498db, 10%)};
+  --primary-color-hover: #{darken(#3498db, 5%)};
+
+  // FONT-FAMILY
+  --font-family-body: "Proxima Nova Rg", sans-serif;
+  --font-family-heading: "Futura PT Demi", sans-serif;
+}
