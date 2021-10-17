@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Futura PT Demi";
+  src: url("../fonts/FuturaPT/FuturaPT-Demi.eot");
+  src: local("../fonts/FuturaPT/Futura PT Demi"), local("../fonts/FuturaPT/FuturaPT-Demi"),
+    url("../fonts/FuturaPT/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FuturaPT/FuturaPT-Demi.woff") format("woff"),
+    url("../fonts/FuturaPT/FuturaPT-Demi.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot");
+  src: local("Proxima Nova Regular"), local("ProximaNova-Regular"),
+    url("../fonts/ProximaNova/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ProximaNova/ProximaNova-Regular.woff") format("woff"),
+    url("../fonts/ProximaNova/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot");
+  src: local("Proxima Nova Bold"), local("ProximaNova-Bold"),
+    url("../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ProximaNova/ProximaNova-Bold.woff") format("woff"),
+    url("../fonts/ProximaNova/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
